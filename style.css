@@ -101,9 +101,12 @@ canvas {
     display: flex;
     margin-left: 30px;
     margin-top: 50px;
+    height: 30px;
 }
 
-.cv_button_holder {}
+.cv_button_holder {
+    height: 30px;
+}
 
 #cv_button {
     display: flex;
@@ -114,13 +117,13 @@ canvas {
     height: 100%;
     width: 120px;
     color: var(--txt);
-    padding-top: 3px;
+    padding-top: 4px;
     padding-left: 36px;
 }
 
 .socials {
     display: flex;
     flex-direction: row;
-    margin-top: 7px;
     margin-left: 70px;
+    margin-top: 5px;
 }
