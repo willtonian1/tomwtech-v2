@@ -5,7 +5,7 @@ const renderer = new THREE.WebGLRenderer({ canvas: document.querySelector("canva
 
 
 const camera = new THREE.PerspectiveCamera(70, 2, 0.01, 1000);
-camera.position.z = 0.12;
+camera.position.z = 0.09;
 
 const scene = new THREE.Scene();
 scene.background = new THREE.Color(0x161617);
