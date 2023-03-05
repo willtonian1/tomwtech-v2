@@ -109,7 +109,7 @@ canvas {
 
 .cv_click {
     border: 1px;
-    width: 140px;
+    width: 120px;
     height: 35px;
     border-style: solid;
     border-color: var(--main);
@@ -120,5 +120,8 @@ canvas {
 }
 
 .socials {
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    margin-top: 6px;
+    margin-left: 70px;
 }
