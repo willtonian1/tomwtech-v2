@@ -1,0 +1,124 @@
+:root {
+    --main: #ffcc33;
+    --bg: #161617;
+    --txt: #ffffff;
+    --secondarytxt: #ccd6f6;
+}
+
+html {
+    box-sizing: border-box;
+    background-color: var(--bg);
+    font-family: Ubuntu;
+    scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden
+}
+
+
+/*settings for each page*/
+
+.page {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#yellow_gradient {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    background: rgb(255, 204, 51);
+    background: linear-gradient(180deg, rgba(255, 204, 51, 1) 0%, rgba(22, 22, 23, 1) 64%);
+}
+
+
+/*Canvas stuff*/
+
+canvas {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    /*border-radius: 50%;*/
+    top: 4px;
+    left: 4px;
+}
+
+#canvas_holder {
+    display: flex;
+    width: 80%;
+    height: 200px;
+    line-height: 0;
+    /*border-radius: 50%;*/
+    position: relative;
+    /*border: 1px solid white;*/
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+
+/*information*/
+
+.information {
+    color: var(--txt);
+    font-family: Ubuntu;
+    margin-left: 30px;
+    margin-right: 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+.intro {
+    color: var(--main);
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.name {
+    color: var(--txt);
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+
+.description {
+    color: var(--secondarytxt);
+    font-size: 13px;
+}
+
+.links {
+    display: flex;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.cv_button {
+    display: inline-block;
+}
+
+.cv_click {
+    border: 1px;
+    width: 140px;
+    height: 35px;
+    border-style: solid;
+    border-color: var(--main);
+    border-radius: 10px;
+    color: var(--txt);
+    font-family: Ubuntu;
+    font-size: 12px;
+}
+
+.socials {
+    display: inline-block;
+}
