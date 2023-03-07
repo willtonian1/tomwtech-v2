@@ -151,23 +151,20 @@ canvas {
 
 .f1_title_text {
     display: flex;
-    margin: 0 auto;
+    margin-left: 20px;
+    color: var(--main);
 }
 
 .f1_logo_pic {
     background-color: var(--bg);
-    margin: 0 auto;
     height: 35px;
+    margin-left: 10px;
     display: flex;
-}
-
-.f1_logo {
-    text-align: center;
-    margin-top: 5px;
-    margin: 0 auto;
 }
 
 .f1_description {
     color: var(--txt);
     font-family: Ubuntu;
+    text-align: center;
+    margin-top: 15px;
 }
