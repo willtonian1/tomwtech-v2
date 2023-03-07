@@ -41,10 +41,10 @@ body {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    border: 2px solid;
+    border: 1px solid;
     border-color: var(--secondarytxt);
     border-radius: 10px;
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 #yellow_gradient {
@@ -167,4 +167,30 @@ canvas {
     font-family: Ubuntu;
     text-align: center;
     margin-top: 15px;
+    font-size: 13px;
+    height: 200px;
+}
+
+.content_button_holder {
+    text-align: right;
+    padding: 10px;
+}
+
+.content_button_next {
+    color: var(--txt);
+    width: 80px;
+    height: 25px;
+    border: 1px solid;
+    border-color: var(--main);
+    border-radius: 5px;
+}
+
+.content_button_previous {
+    margin-right: 10px;
+    color: var(--txt);
+    width: 80px;
+    height: 25px;
+    border: 1px solid;
+    border-color: var(--main);
+    border-radius: 5px;
 }
