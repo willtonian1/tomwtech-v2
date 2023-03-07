@@ -35,6 +35,18 @@ body {
     flex-direction: column;
 }
 
+.box {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid;
+    border-color: var(--main);
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
 #yellow_gradient {
     width: 100%;
     height: 90px;
@@ -128,70 +140,60 @@ canvas {
     margin-top: 5px;
 }
 
-
-
-.f1_title{
-    margin-top: 30%;
+.f1_title {
     color: var(--txt);
     font-family: ubuntu;
     font-size: 30px;
     display: flex;
     align-items: center;
-    
-
+    margin-top: 15px;
 }
 
-.f1_title_text{
+.f1_title_text {
     display: inline-block;
     width: 230px;
     margin: 0 auto;
-    margin-right:10px;
+    margin-right: 10px;
     margin-left: 5px;
     position: relative;
     left: 30px;
 }
 
-.line1{
+.line1 {
     color: var(--main);
     height: 3px;
-    width:25px;
+    width: 25px;
     margin: 0 auto;
-    display:inline-block;
+    display: inline-block;
     background-color: var(--main);
-    position:absolute;
-
+    position: absolute;
 }
 
-.line2{
+.line2 {
     color: var(--main);
     height: 3px;
-    width:100%;
-    display:inline-block;
+    width: 100%;
+    display: inline-block;
     background-color: var(--main);
     position: relative;
-    
-
 }
 
-
-.f1_logo{
+.f1_logo {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 5px;
     margin: 0 auto;
-}   
+}
 
-.f1_logo_pic{
+.f1_logo_pic {
     background-color: var(--bg);
     margin: 0 auto;
     width: 300px;
 }
 
-
-#rugby_title_text{
+#rugby_title_text {
     width: 170px;
 }
 
-
-#rugby_link{
+#rugby_link {
     margin-top: 30px;
 }
