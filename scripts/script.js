@@ -78,6 +78,57 @@ function animate(time) {
     requestAnimationFrame(animate);
 
     controls.update();
+
+
+
 }
 
 requestAnimationFrame(animate);
+
+
+let current_slide = 0
+
+document.getElementById("prev").addEventListener("click", previous);
+document.getElementById("next").addEventListener("click", next);
+
+var element1 = document.getElementById("selection1")
+var element2 = document.getElementById("selection2")
+
+function previous() {
+    current_slide = current_slide - 1
+    console.log(current_slide)
+
+
+    if (current_slide === 0) {
+        element1.style.display = "block";
+        element2.style.display = "none";
+
+    }
+
+    if (current_slide === 1) {
+        element1.style.display = "none";
+        element2.style.display = "block";
+
+    }
+
+
+}
+
+function next() {
+
+    current_slide = current_slide + 1
+    console.log(current_slide)
+
+
+    if (current_slide === 0) {
+        element1.style.display = "block";
+        element2.style.display = "none";
+
+    }
+
+    if (current_slide === 1) {
+        element1.style.display = "none";
+        element2.style.display = "block";
+
+    }
+}
