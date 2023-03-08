@@ -630,6 +630,7 @@ hr.solid {
         /*border: 1px solid white;*/
         margin: 0 auto;
         margin-bottom: 20px;
+        border: none;
     }
 }
 
