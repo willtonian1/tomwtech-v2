@@ -116,10 +116,10 @@ function previous() {
         element2.style.display = "block";
 }
     
-    if (current_sldie < 1){
+    if (current_sldie < 0){
         element1.style.display = "block";
         element2.style.display = "none";
-        current_slide = current_slide -1
+        current_slide = current_slide + 1
     }
     
     
@@ -153,9 +153,9 @@ function next() {
         element2.style.display = "block";
 }
     
-    if (current_sldie < 1){
+    if (current_sldie < 0){
         element1.style.display = "block";
         element2.style.display = "none";
-        current_slide = current_slide -1
+        current_slide = current_slide + 1
     }
 }
