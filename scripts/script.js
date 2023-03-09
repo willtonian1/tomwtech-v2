@@ -116,7 +116,7 @@ function previous() {
         element2.style.display = "block";
 }
     
-    if (current_sldie < 0){
+    if (current_slide < 0){
         element1.style.display = "block";
         element2.style.display = "none";
         current_slide = current_slide + 1
